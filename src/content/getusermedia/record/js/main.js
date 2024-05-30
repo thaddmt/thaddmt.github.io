@@ -74,7 +74,7 @@ function handleDataAvailable(event) {
 
 function getSupportedMimeTypes() {
   const possibleTypes = [
-    "video/mp4;codecs=avc1",
+    "video/x-matroska;codecs=avc1",
     "video/webm;codecs=vp9,opus",
     "video/webm;codecs=vp8,opus",
     "video/webm;codecs=h264,opus",
